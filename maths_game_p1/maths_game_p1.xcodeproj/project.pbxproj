@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329BAC821EB907EF00CADB32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329BAC811EB907EF00CADB32 /* main.m */; };
+		329BAC8A1EB9081100CADB32 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 329BAC891EB9081100CADB32 /* Game.m */; };
+		329BACA31EB91E8F00CADB32 /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 329BACA21EB91E8F00CADB32 /* UserInput.m */; };
+		329BACA61EB9280F00CADB32 /* ScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 329BACA51EB9280F00CADB32 /* ScoreBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		329BAC7C1EB907EF00CADB32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		329BAC7E1EB907EF00CADB32 /* maths_game_p1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = maths_game_p1; sourceTree = BUILT_PRODUCTS_DIR; };
+		329BAC811EB907EF00CADB32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		329BAC881EB9081100CADB32 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		329BAC891EB9081100CADB32 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		329BACA11EB91E8F00CADB32 /* UserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
+		329BACA21EB91E8F00CADB32 /* UserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		329BACA41EB9280F00CADB32 /* ScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoard.h; sourceTree = "<group>"; };
+		329BACA51EB9280F00CADB32 /* ScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329BAC7B1EB907EF00CADB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329BAC751EB907EF00CADB32 = {
+			isa = PBXGroup;
+			children = (
+				329BAC801EB907EF00CADB32 /* maths_game_p1 */,
+				329BAC7F1EB907EF00CADB32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329BAC7F1EB907EF00CADB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329BAC7E1EB907EF00CADB32 /* maths_game_p1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329BAC801EB907EF00CADB32 /* maths_game_p1 */ = {
+			isa = PBXGroup;
+			children = (
+				329BAC811EB907EF00CADB32 /* main.m */,
+				329BAC881EB9081100CADB32 /* Game.h */,
+				329BAC891EB9081100CADB32 /* Game.m */,
+				329BACA11EB91E8F00CADB32 /* UserInput.h */,
+				329BACA21EB91E8F00CADB32 /* UserInput.m */,
+				329BACA41EB9280F00CADB32 /* ScoreBoard.h */,
+				329BACA51EB9280F00CADB32 /* ScoreBoard.m */,
+			);
+			path = maths_game_p1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329BAC7D1EB907EF00CADB32 /* maths_game_p1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329BAC851EB907EF00CADB32 /* Build configuration list for PBXNativeTarget "maths_game_p1" */;
+			buildPhases = (
+				329BAC7A1EB907EF00CADB32 /* Sources */,
+				329BAC7B1EB907EF00CADB32 /* Frameworks */,
+				329BAC7C1EB907EF00CADB32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maths_game_p1;
+			productName = maths_game_p1;
+			productReference = 329BAC7E1EB907EF00CADB32 /* maths_game_p1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329BAC761EB907EF00CADB32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mandeep;
+				TargetAttributes = {
+					329BAC7D1EB907EF00CADB32 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 329BAC791EB907EF00CADB32 /* Build configuration list for PBXProject "maths_game_p1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 329BAC751EB907EF00CADB32;
+			productRefGroup = 329BAC7F1EB907EF00CADB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329BAC7D1EB907EF00CADB32 /* maths_game_p1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329BAC7A1EB907EF00CADB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329BAC821EB907EF00CADB32 /* main.m in Sources */,
+				329BAC8A1EB9081100CADB32 /* Game.m in Sources */,
+				329BACA31EB91E8F00CADB32 /* UserInput.m in Sources */,
+				329BACA61EB9280F00CADB32 /* ScoreBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		329BAC831EB907EF00CADB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		329BAC841EB907EF00CADB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		329BAC861EB907EF00CADB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		329BAC871EB907EF00CADB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329BAC791EB907EF00CADB32 /* Build configuration list for PBXProject "maths_game_p1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329BAC831EB907EF00CADB32 /* Debug */,
+				329BAC841EB907EF00CADB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329BAC851EB907EF00CADB32 /* Build configuration list for PBXNativeTarget "maths_game_p1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329BAC861EB907EF00CADB32 /* Debug */,
+				329BAC871EB907EF00CADB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 329BAC761EB907EF00CADB32 /* Project object */;
+}

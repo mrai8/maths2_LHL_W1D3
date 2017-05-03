@@ -10,10 +10,20 @@
 
 @interface Game : NSObject
 
-@property NSString * question;
-@property NSInteger answer;
+@property (nonatomic) NSString * question;
+@property (nonatomic) NSInteger answer;
+@property (nonatomic) NSDate *startTime;
+@property (nonatomic) NSDate *endTime;
+@property (nonatomic) NSInteger leftSide;
+@property (nonatomic) NSInteger rightSide;
 
--(instancetype)initGame;
+
+-(instancetype)init;
+
+-(NSTimeInterval) gameTime;
+
+-(void)generateQ;
+
 
 
 @end

@@ -10,6 +10,12 @@
 #import "Game.h"
 #import "UserInput.h"
 #import "ScoreBoard.h"
+#import "QuestionMgr.h"
+#import "Qfactory.h"
+#import "AdditionQ.h"
+#import "SubtractionQ.h"
+#import "MultiplicationQ.h"
+#import "DivisionQ.h"
 
 
 
@@ -20,10 +26,13 @@ int main(int argc, const char * argv[]) {
         BOOL gameOn = YES;
         
         ScoreBoard *scoreOne = [[ScoreBoard alloc] init];
+        QuestionMgr *gameMgr = [[QuestionMgr alloc] init];
+        Qfactory *randomizer = [[Qfactory alloc] init];
+        
         
         while(gameOn){
             
-            Game *gameOne = [[Game alloc] initGame];
+            Game *gameOne = [randomizer generateRQ];
             
             NSString *submission = [UserInput getSubmission];
             NSInteger submissionInt = [submission integerValue];
@@ -37,6 +46,8 @@ int main(int argc, const char * argv[]) {
                 NSString *result = [scoreOne gainFlop];
                 NSLog(@"%@", result);
             }
+            
+            [gameMgr.qLog addObject:gameOne];
             
                       printf("Type 'quit' to end game: ");
 

@@ -35,7 +35,7 @@
 
 -(NSTimeInterval) gameTime{
     
-    NSTimeInterval playTime = [self.startTime timeIntervalSinceDate:self.endTime];
+    NSTimeInterval playTime = [self.endTime timeIntervalSinceDate:self.startTime];
     return playTime;
     
 }

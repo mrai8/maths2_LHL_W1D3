@@ -48,6 +48,7 @@ int main(int argc, const char * argv[]) {
             }
             
             [gameMgr.qLog addObject:gameOne];
+            NSLog(@"%@", [gameMgr timeOutput]);
             
                       printf("Type 'quit' to end game: ");
 
